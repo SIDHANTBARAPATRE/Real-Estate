@@ -1,0 +1,7 @@
+1)Installation of vite+ react
+
+npm create vite@latest client
+
+2)select react, then select javascript+sws
+
+3)Installation of tailwing - look through the documentation.

@@ -1,0 +1,29 @@
+1)Installation of vite+ react
+
+npm create vite@latest client
+
+2)select react, then select javascript+sws
+
+3)Installation of tailwing - look through the documentation.
+
+4)initializing terminal and pushing all the codes in the GitHub.
+   
+commands-
+
+  a) git init
+  
+  b) git add .
+
+  c) git commit -m "install react js and tailwind css and create the first template"
+
+  Create a repository in GitHub without  readme file in  browser and paste the foolowing codes in terminal-
+
+  d) git remote add origin https://github.com/SIDHANTBARAPATRE/Real-Estate.git
+
+  e) git branch -M main
+
+  f) git push -u origin main
+
+ 5)Creating Pages and routes
+
+6) Create Header Components
