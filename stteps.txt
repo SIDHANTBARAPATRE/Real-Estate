@@ -27,3 +27,17 @@ commands-
  5)Creating Pages and routes
 
 6) Create Header Components
+
+7)Creating server
+
+Note git must be initialize in the parent folder where api(server) and client both is present.
+
+move .gitignore file from client to parent folder where both apia nd client is present
+
+
+8)Connecting to MongoDB
+
+username - Sidhant
+password - Sidhant
+
+congodb connection tring contains password ....so secure it using .env file by storing string there....ad add .env to .gitignore file...so that the while deployed string will be hidden with password
