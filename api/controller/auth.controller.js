@@ -11,7 +11,7 @@ export const signup = async(req, res, next)=>{
 
     } catch (error) {
         console.log(error.message)
-        next(error);
+        next(error); //error handling using middleware
     }
 
 }
