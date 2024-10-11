@@ -40,4 +40,35 @@ move .gitignore file from client to parent folder where both apia nd client is p
 username - Sidhant
 password - Sidhant
 
-congodb connection tring contains password ....so secure it using .env file by storing string there....ad add .env to .gitignore file...so that the while deployed string will be hidden with password
+mongodb connection string contains password ....so secure it using .env file by storing string there....ad add .env to .gitignore file...so that the while deployed string will be hidden with password.
+
+9)creating user model
+
+10)Creating aoi routes - make sure to store it like a tree
+   
+     index.js
+        |
+     user.routes.js(inside routes)
+        |
+     user.controller.js(inside controller)
+
+url - http://localhost:3000/api/user/test
+
+11)Creating a middleware to handle error in more arranged form
+    
+    app.use((err, req, res, next) => {
+    const statusCode = err.statusCode || 500;
+    const message = err.message 
+
+     'Internal Server Error';
+     return  res.status(statusCode).json({
+        success : false,
+        statusCode,
+        message,
+     });
+});
+
+
+12)Creting a own error function to handle future error(will be used later)
+
+13)Creating UI of Signup
