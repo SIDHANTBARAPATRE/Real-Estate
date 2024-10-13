@@ -41,7 +41,8 @@ export default function SignUp() {
       // If signup is successful, navigate to sign-in page
       setLoading(false);
       setError(null);
-      navigate('/sign-in');  // Navigate after successful signup
+      navigate('/sign-in');
+      alert("Account created Successfully, please login")  // Navigate after successful signup
     } catch (error) {
       setLoading(false);
       setError(error.message);
