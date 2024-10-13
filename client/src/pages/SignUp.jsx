@@ -32,7 +32,7 @@ export default function SignUp() {
       const data = await res.json();
   
       // Check if signup failed
-      if (data.success === false) {  // Corrected here
+      if (data.success === false) {  // Corrected here //error function created in index.js
         setLoading(false);
         setError(data.message);
         return;
