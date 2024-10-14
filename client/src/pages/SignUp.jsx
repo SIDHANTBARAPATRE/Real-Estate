@@ -42,7 +42,7 @@ export default function SignUp() {
       setLoading(false);
       setError(null);
       navigate('/sign-in');
-      alert("Account created Successfully, please login")  // Navigate after successful signup
+      alert("Account created Successfully, please Sign in")  // Navigate after successful signup
     } catch (error) {
       setLoading(false);
       setError(error.message);
