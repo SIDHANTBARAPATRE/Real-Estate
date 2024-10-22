@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import OAuth from '../components/OAuth';
 
 export default function SignUp() {
 
@@ -66,6 +67,7 @@ export default function SignUp() {
         <span className = "text-blue-700">
           Sign in</span></Link>
       </div>
+      <OAuth />
       {error && <p className = "text-red-500 mt-5">{error}</p>}
     </div>
   )

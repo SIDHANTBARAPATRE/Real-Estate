@@ -16,7 +16,11 @@ const userSchema = new mongoose.Schema({
     password : {
         type : String,
         required : true,
-    }
+    },
+    avatar : {
+        type : String,
+        default : "https://www.murrayglass.com/wp-content/uploads/2020/10/avatar-scaled.jpeg"
+    },
 
 
 },{timestamps : true});
