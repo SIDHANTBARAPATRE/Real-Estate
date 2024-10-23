@@ -82,9 +82,14 @@ go to console of firebase ->new project->get started-> web -> select google-> in
     delete the user for again re login
 14)complted profile UI
 
+-> copied code.
+->see how to create storage in firebase.
+
 15) create Update Api Route
   
      -> create verifyToken to verify the user (note install cookie-parser in Real-Estate not in api folder)
 
    -> set -> if we want to update the only one information such as only then the set function is used.
+
+
 
