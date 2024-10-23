@@ -72,3 +72,19 @@ url - http://localhost:3000/api/user/test
 12)Creting a own error function to handle future error(will be used later)
 
 13)Creating UI of Signup
+14)Google auth (OAuth)
+
+create new project in firebase:
+go to console of firebase ->new project->get started-> web -> select google-> install firebase-> copy the code with key.
+
+
+    check->application->local storage --- for current logged in user
+    delete the user for again re login
+14)complted profile UI
+
+15) create Update Api Route
+  
+     -> create verifyToken to verify the user (note install cookie-parser in Real-Estate not in api folder)
+
+   -> set -> if we want to update the only one information such as only then the set function is used.
+
