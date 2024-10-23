@@ -101,6 +101,9 @@ go to console of firebase ->new project->get started-> web -> select google-> in
    -> set -> if we want to update the only one information such as only then the set function is used.
 
 16)Complete Delete user Functionality
+17)Created sign out functionality
+18)Add  create Listing api route 
+
 
 
 

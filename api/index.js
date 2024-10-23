@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRouter from "./routes/user.route.js"; // router changed---> userRouter
 import authRouter from "./routes/auth.route.js";
+import listingRouter from "./routes/listing.route.js";
 import cookieParser from "cookie-parser";
 dotenv.config();
 
@@ -25,6 +26,7 @@ app.listen(3000, () => {
 
 app.use("/api/user", userRouter); /// api/user- is not a folder path
 app.use("/api/auth", authRouter);
+app.use("/api/listing", listingRouter);
 
 // middleware for error handling,,,,
 app.use((err, req, res, next) => {
