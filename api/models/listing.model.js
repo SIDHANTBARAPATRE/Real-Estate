@@ -50,7 +50,7 @@ const listingSchema = new mongoose.Schema(
       type: Array,
       required: true,
     },
-    userRef: {
+    userRef: { // to identify the partivcular
       type: String,
       required: true,
     },
