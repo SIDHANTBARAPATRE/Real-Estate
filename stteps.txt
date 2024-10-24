@@ -115,6 +115,8 @@ req.user.id === req.params.id  -------  user.id - from cookies and params.id fro
 25)create update listing api route
   -> listing id must be passed not the user id.
 26)complete update listing functionality.
+->use of params ---- we need to import since it is frontend , therefore req.params does not work
+27)Add image slider to the listing page.
 
 
 
