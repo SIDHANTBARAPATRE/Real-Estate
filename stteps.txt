@@ -110,7 +110,12 @@ go to console of firebase ->new project->get started-> web -> select google-> in
  -> We use useRef to identify the particular user creating this listing..
 22)create get user API route.
 req.user.id === req.params.id  -------  user.id - from cookies and params.id from url
-23)
+23) complete show user listing functionality
+24)complete delete user functionality
+25)create update listing api route
+  -> listing id must be passed not the user id.
+26)complete update listing functionality.
+
 
 
 
