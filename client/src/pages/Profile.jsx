@@ -256,7 +256,7 @@ export default function Profile() {
           </h1>
           {userListings.map((listing) => (
             <div
-              key={listing._id}
+              key={listing._id} ///it is liating id not a user id...
               className='border rounded-lg p-3 flex justify-between items-center gap-4'
             >
               <Link to={`/listing/${listing._id}`}>
