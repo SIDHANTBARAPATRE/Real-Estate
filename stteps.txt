@@ -118,8 +118,10 @@ req.user.id === req.params.id  -------  user.id - from cookies and params.id fro
 ->use of params ---- we need to import since it is frontend , therefore req.params does not work
 27)Add image slider to the listing page.
 28)Add contact landlord functionality.
-
-
+29) create search api route
+30)complete header search form functionality
+31)create search page UI
+32)add onChange and onSubmit functionality to the search page
 
 
 

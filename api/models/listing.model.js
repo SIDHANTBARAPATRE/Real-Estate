@@ -50,7 +50,7 @@ const listingSchema = new mongoose.Schema(
       type: Array,
       required: true,
     },
-    userRef: { // to identify the partivcular
+    userRef: { // to identify the particular user, the id of user will move here..
       type: String,
       required: true,
     },
