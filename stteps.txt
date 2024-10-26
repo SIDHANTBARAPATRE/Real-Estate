@@ -122,6 +122,8 @@ req.user.id === req.params.id  -------  user.id - from cookies and params.id fro
 30)complete header search form functionality
 31)create search page UI
 32)add onChange and onSubmit functionality to the search page
+33)Create the listing item component and show listings
+     ->adding line clamp from tailwind css  GitHub repository- used to see the description in required number of line by users choice. 
 
 
 
