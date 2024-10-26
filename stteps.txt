@@ -126,7 +126,13 @@ req.user.id === req.params.id  -------  user.id - from cookies and params.id fro
      ->adding line clamp from tailwind css  GitHub repository- used to see the description in required number of line by users choice. 
 33)add show more listings functionality and complet home page 
 34)Compete About Page.
-35)Deployment to render pending
+35)Deployment to render 
+->Adding start and build in the outermost package.json
+      "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "node api/index.js"
+
+->Adiing directory index.js of server to connect server to client in render
+-> Add Domain to firebase for google auth to work
 
 
 
