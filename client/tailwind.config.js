@@ -8,3 +8,4 @@ export default {
   },
   plugins: [lineClamp],
 };
+// changes made
