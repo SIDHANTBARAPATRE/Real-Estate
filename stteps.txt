@@ -132,7 +132,7 @@ req.user.id === req.params.id  -------  user.id - from cookies and params.id fro
     "start": "node api/index.js"
 
 ->Adiing directory index.js of server to connect server to client in render
--> Add Domain to firebase for google auth to work
+-> Add Domain in authentication to firebase for google auth to work
 
 
 
